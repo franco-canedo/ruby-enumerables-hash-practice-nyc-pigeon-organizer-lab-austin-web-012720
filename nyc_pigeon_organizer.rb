@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   new_hash = names.uniq
  
   i = 0 
-  while i < data[:color] do
+  while i < data[:color].length do
     if data[:color][i].include?()
       
     end
