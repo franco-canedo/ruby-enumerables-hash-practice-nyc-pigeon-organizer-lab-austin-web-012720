@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   
   
  data[:color].each { |color| 
-    names = color.map { |name| name  }
+    new_hash = color.map { |name| name.to_sym  }
   }
   
   i = 0 
