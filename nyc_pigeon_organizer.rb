@@ -1,3 +1,21 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  new_hash = {}
+  names = []
+  
+  
+  
+ data[:color].each { |color| 
+    names = color.map { |name| name  }
+  }
+  
+  i = 0 
+  while i < data[:color] do
+    if data[:color][i].include?()
+      
+    end
+  end
+  
+  
+  
+  
 end
