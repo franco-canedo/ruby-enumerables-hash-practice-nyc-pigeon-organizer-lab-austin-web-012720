@@ -9,7 +9,11 @@ def nyc_pigeon_organizer(data)
         end
         
         if !new_hash[name][prop]
+          new_hash[name][prop] = []
+        end
         
+        if !new_hash[name][prop][attribute]
+          new_hash[name][prop] = 
       }
     }
   }
