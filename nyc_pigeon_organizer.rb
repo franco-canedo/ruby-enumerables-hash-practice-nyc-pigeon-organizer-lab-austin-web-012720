@@ -5,9 +5,11 @@ def nyc_pigeon_organizer(data)
   
   
  data[:color].map { |color| 
-    new_hash = color.map { |name| name.to_sym  }
+    names = color.map { |name| name.to_sym  }
   }
   
+  new_hash = names.uniq
+ 
   i = 0 
   while i < data[:color] do
     if data[:color][i].include?()
